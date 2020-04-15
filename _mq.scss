@@ -18,6 +18,9 @@ $mq-xl: $mq-base + ($mq-increment * 2);
 $mq-xxl: $mq-base + ($mq-increment * 3);
 $mq-xxxl: $mq-base + ($mq-increment * 4);
 $mq-xxxxl: $mq-base + ($mq-increment * 5);
+$mq-xxxxxl: $mq-base + ($mq-increment * 6);
+$mq-xxxxxxl: $mq-base + ($mq-increment * 7);
+$mq-xxxxxxxl: $mq-base + ($mq-increment * 8);
 
 /// Breakpoint list
 ///
@@ -39,6 +42,9 @@ $mq-breakpoints: (
 	xxl: $mq-xxl,
 	xxxl: $mq-xxxl,
 	xxxxl: $mq-xxxxl,
+	xxxxxl: $mq-xxxxxl,
+	xxxxxxl: $mq-xxxxxxl,
+	xxxxxxxl: $mq-xxxxxxxl,
 ) !default;
 
 /// Customize the media type (e.g. `@media screen` or `@media print`)
